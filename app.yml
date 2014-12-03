@@ -1,0 +1,12 @@
+application: pushp-test
+runtime: python
+version: 1
+api_version: 1
+
+handlers:
+- url: /
+  script: newsite.wsgi.app
+
+
+env_variables:
+  DJANGO_SETTINGS_MODULE: 'newsite.settings'
