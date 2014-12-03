@@ -1,0 +1,10 @@
+application: pushp-test
+runtime: python27
+version: 1
+api_version: 1
+
+handlers:
+- url: /.*
+  script: newsite.app
+
+
